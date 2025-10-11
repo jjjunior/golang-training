@@ -3,5 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello, World!")
+	name := "Jota"
+	fmt.Printf("Hello, %s!!\nSeja Bem vindo ao Golang!", name)
 }
