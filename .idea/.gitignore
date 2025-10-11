@@ -1,0 +1,84 @@
+# ===========================
+# Go / Golang
+# ===========================
+
+# Binários compilados
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Diretório de build
+/build/
+bin/
+dist/
+
+# Cache do Go
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.DS_Store
+*.idea/
+
+# Go Modules / Vendor
+vendor/
+*.mod
+*.sum
+
+# Test cache
+*.cover
+*.prof
+*.cov
+
+# Gerados pelo Go toolchain
+go.work
+go.work.sum
+
+# ===========================
+# JetBrains / GoLand
+# ===========================
+
+# Diretórios e arquivos do IDE
+.idea/
+*.iml
+out/
+
+# Configurações locais do GoLand
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/httpRequests/
+.idea/shelf/
+
+# ===========================
+# SOs (Windows / macOS / Linux)
+# ===========================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+.nfs*
+
+# ===========================
+# Outros (opcional)
+# ===========================
+
+# Arquivos temporários de debug
+debug/
+tmp/
+logs/
+coverage.out
